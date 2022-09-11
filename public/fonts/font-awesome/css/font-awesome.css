@@ -1799,3 +1799,25 @@
 .fa-medium:before {
   content: "\f23a";
 }
+.fa-solid-fa-cake-candles:before {
+  content: "\f1fd";
+}
+.fa-regular-fa-party-horn:before {
+  content: "\e31b";
+}
+
+.fa-solid-fa-child:before {
+  content: "\f1ae"
+}
+
+.fa-solid-fa-laptop:before {
+  content: "\f109"
+}
+.fa-light-fa-bomb:before {
+content: "\f1e2"}
+
+.fa-light-fa-bullhorn:before {
+  content: "\f0a1"}
+
+.fa-light-fa-face-laugh-squint:before {
+  content: "FP"}
