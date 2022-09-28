@@ -11,6 +11,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -1014,6 +1016,9 @@
 }
 .fa-puzzle-piece:before {
   content: "\f12e";
+}
+.fa-microphone-stand:before {
+  content: "\f8cb\f8cb";
 }
 .fa-microphone:before {
   content: "\f130";

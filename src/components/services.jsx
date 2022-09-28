@@ -1,3 +1,4 @@
+
 export const Services = (props) => {
   return (
     <div id='services' className='text-center'>
@@ -5,7 +6,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Nuestros servicios</h2>
           <p>
-            Junto con mi equipo trabajamos para hacer especial tu evento!
+            ¡JUNTO A MI EQUIPO TRABAJAMOS PARA HACER ESPECIAL TU EVENTO!
           </p>
         </div>
         <div className='row'>

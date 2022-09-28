@@ -1,51 +1,53 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "CONFIÁ, DIVERTITE Y DISFRUTÁ ",
+    "paragraph": "Junto con mi equipo estamos en cada detalle para que tu evento sea el que siempre soñaste."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": [
+      "Mis primeros pasos dentro de la animación fueron en el año 2007 en el Campamento ACA de San Clemente del Tuyú, lugar del que fui parte 14 años llegando a ser el coordinador del mismo, empezó como un trabajo y poco a poco se convirtió en un verdadero estilo de vida. En el año 2010 creé Tururú Animaciones enfocándonos en la animación de fiestas infantiles", 
+      "Luego, con el interés de ampliar mis servicios decidí a principios del 2019 crear “Federico Pérez, animación y conducción”, se venía un 2020 con todo, muchas ideas para divertirnos y disfrutar pero la pandemia decidió que cambiemos las formas. La virtualidad y la diversión estuvieron de la mano; cumpleaños, celebraciones, juegos y muchísimo más. La clave fue reinventarse.", 
+      "En la actualidad, soy Federico Perez, animación y conducción con servicios para tus eventos presenciales y también virtuales ¡No te los pierdas! "
+    ],
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Profesional",
+      "Respetuoso",
+      "Creativo"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Apasionado",
+      "Proactivo",
+      "Comprometido"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Profesional",
       "largeImage": "img/portfolio/GaleriaLarge/Large(1).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(1).jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Respetuoso",
       "largeImage": "img/portfolio/GaleriaLarge/Large(2).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(2).jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Creativo",
       "largeImage": "img/portfolio/GaleriaLarge/Large(3).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(3).jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Apasionado",
       "largeImage": "img/portfolio/GaleriaLarge/Large(4).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(4).jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Proactivo",
       "largeImage": "img/portfolio/GaleriaLarge/Large(5).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(5).jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Comprometido",
       "largeImage": "img/portfolio/GaleriaLarge/Large(6).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(6).jpg"
     },
@@ -62,46 +64,45 @@
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/GaleriaLarge/Large(9).jpg",
-      "smallImage": "img/portfolio/GaleriaLarge/Small(9).jpg"
+      "smallImage": "img/portfolio/GaleriaSmall/Small(9).jpg"
     }
   ],
   "Services": [
-    {
-      "icon": "fa fa-solid-fa-child",
+    { 
+      "icon": "fa fa-music",
       "name": "Malones",
-      "text": "Celebración, diversión y entretenimiento para los mas chicos."
+      "text": "Premalones y malones: diversión, entretenimiento, juegos, bailes y mucho más para los más chicos."
     },
     {
-      "icon": "fa fa-beer",
+      "icon": "fa fa-music",
       "name": "Entretenimiento para adultos",
-      "text": "Cumpleaños, casamientos, baby shower, despedidas, recibidas, divorcios"
-    },
-    {
-      "icon": "fa fa fa-magic",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-light-fa-bomb",
-      "name": "Alfombrar roja",
-      "text": "Especial para cumple de 15 y casamientos"
-    },
-    {
-      "icon": "fa fa-light-fa-bullhorn",
-      "name": "Conduccion de eventos",
-      "text": "Desfiles, actos protoolares, celebraciones varias"
+      "text": "Juegos y entretenimiento para adultos: babyshowers, casamientos, cumpleaños, celebraciones varias, divorcios."
     },
     {
       "icon": "fa fa-solid-fa-laptop",
       "name": "Festejos virtuales",
-      "text": "Conectamos y festejamos con tus seres queridos que se encuentran en otras partes del mundo"
+      "text": "Celebraciones desde cualquier parte del mundo a cualquier parte del mundo transmitido desde mi propio estudio."
+    },
+    {
+      "icon": "fa fa-light-fa-bomb",
+      "name": "Alfombrar roja",
+      "text": "Servicio pensado especialmente para eventos como casamientos, cumpleaños de quince y eventos formales."
+    },
+    {
+      "icon": "fa fa-microphone",
+      "name": "Conduccion de eventos",
+      "text": "Actos protocolares, celebraciones formales, presentaciones y desfiles."
+    },
+    {
+      "icon": "fa fa fa-heart",
+      "name": "Eventos corporativos",
+      "text": "Diversión y entretenimiento para grandes, medianas y pequeñas empresas."
     }
   ],
 
   "Contact": {
-    "direccion": "7 y 50, La Plata, Buenos Aires, Argentina",
     "telefono": "2215559955",
-    "email": "federicoperez@gmail.com",
+    "email": "federicoperezoka@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

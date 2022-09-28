@@ -13,14 +13,14 @@ export const Contact = (props) => {
     const { name, value } = e.target
     setState((prevState) => ({ ...prevState, [name]: value }))
   }
-  const clearState = () => setState({ ...initialState })
 
   const handleSubmit = (e) => {
+    const clearState = () => setState({ ...initialState })
     e.preventDefault()
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_21lge1x', 'template_cdcxp3l', e.target, 'Nm2CTLVgUyHZxUAQG'
       )
       .then(
         (result) => {
@@ -96,13 +96,7 @@ export const Contact = (props) => {
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>info de contacto</h3>
-              <p>
-                <span>
-                  <i className='fa fa-map-marker'></i> Dirección
-                </span>
-                {props.data ? props.data.direccion : 'loading'}
-              </p>
+              <h3>Info de contacto</h3>
             </div>
             <div className='contact-item'>
               <p>
@@ -124,6 +118,7 @@ export const Contact = (props) => {
           <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
+              <p>Clickea y seguime en las redes</p>
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : '/'}>
@@ -132,7 +127,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
+                      <i className='fa fa-instagram'></i>
                     </a>
                   </li>
                   <li>
