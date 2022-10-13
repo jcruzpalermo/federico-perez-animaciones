@@ -11,8 +11,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -1017,9 +1015,6 @@
 .fa-puzzle-piece:before {
   content: "\f12e";
 }
-.fa-microphone-stand:before {
-  content: "\f8cb\f8cb";
-}
 .fa-microphone:before {
   content: "\f130";
 }
@@ -1804,25 +1799,7 @@
 .fa-medium:before {
   content: "\f23a";
 }
-.fa-solid-fa-cake-candles:before {
-  content: "\f1fd";
-}
-.fa-regular-fa-party-horn:before {
-  content: "\e31b";
-}
 
-.fa-solid-fa-child:before {
-  content: "\f1ae"
+.fa-industry:before {
+  content: "\e473";
 }
-
-.fa-solid-fa-laptop:before {
-  content: "\f109"
-}
-.fa-light-fa-bomb:before {
-content: "\f1e2"}
-
-.fa-light-fa-bullhorn:before {
-  content: "\f0a1"}
-
-.fa-light-fa-face-laugh-squint:before {
-  content: "FP"}

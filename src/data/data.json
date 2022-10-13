@@ -6,7 +6,7 @@
   "About": {
     "paragraph": [
       "Mis primeros pasos dentro de la animación fueron en el año 2007 en el Campamento ACA de San Clemente del Tuyú, lugar del que fui parte 14 años llegando a ser el coordinador del mismo, empezó como un trabajo y poco a poco se convirtió en un verdadero estilo de vida. En el año 2010 creé Tururú Animaciones enfocándonos en la animación de fiestas infantiles", 
-      "Luego, con el interés de ampliar mis servicios decidí a principios del 2019 crear “Federico Pérez, animación y conducción”, se venía un 2020 con todo, muchas ideas para divertirnos y disfrutar pero la pandemia decidió que cambiemos las formas. La virtualidad y la diversión estuvieron de la mano; cumpleaños, celebraciones, juegos y muchísimo más. La clave fue reinventarse.", 
+      "Luego, con el interés de ampliar mis servicios decidí a principios del 2018 crear “Federico Pérez, animación y conducción”, se venía un 2020 con todo, muchas ideas para divertirnos y disfrutar pero la pandemia decidió que cambiemos las formas. La virtualidad y la diversión estuvieron de la mano; cumpleaños, celebraciones, juegos y muchísimo más. La clave fue reinventarse.", 
       "En la actualidad, soy Federico Perez, animación y conducción con servicios para tus eventos presenciales y también virtuales ¡No te los pierdas! "
     ],
     "Why": [
@@ -22,89 +22,89 @@
   },
   "Gallery": [
     {
-      "title": "Profesional",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(1).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(1).jpg"
     },
     {
-      "title": "Respetuoso",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(2).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(2).jpg"
     },
     {
-      "title": "Creativo",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(3).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(3).jpg"
     },
     {
-      "title": "Apasionado",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(4).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(4).jpg"
     },
     {
-      "title": "Proactivo",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(5).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(5).jpg"
     },
     {
-      "title": "Comprometido",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(6).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(6).jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(7).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(7).jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(8).jpeg",
-      "smallImage": "img/portfolio/GaleriaSmall/Small(8).jpeg"
+      "smallImage": "img/portfolio/GaleriaSmall/Small(8).jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/GaleriaLarge/Large(9).jpg",
       "smallImage": "img/portfolio/GaleriaSmall/Small(9).jpg"
     }
   ],
   "Services": [
     { 
-      "icon": "fa fa-music",
+      "icon": "fa fa-child",
       "name": "Malones",
       "text": "Premalones y malones: diversión, entretenimiento, juegos, bailes y mucho más para los más chicos."
     },
     {
-      "icon": "fa fa-music",
+      "icon": "fa fa-volume-up",
       "name": "Entretenimiento para adultos",
       "text": "Juegos y entretenimiento para adultos: babyshowers, casamientos, cumpleaños, celebraciones varias, divorcios."
     },
     {
-      "icon": "fa fa-solid-fa-laptop",
+      "icon": "fa fa-laptop",
       "name": "Festejos virtuales",
       "text": "Celebraciones desde cualquier parte del mundo a cualquier parte del mundo transmitido desde mi propio estudio."
     },
     {
-      "icon": "fa fa-light-fa-bomb",
-      "name": "Alfombrar roja",
+      "icon": "fa fa-star",
+      "name": "Alfombra roja",
       "text": "Servicio pensado especialmente para eventos como casamientos, cumpleaños de quince y eventos formales."
     },
     {
       "icon": "fa fa-microphone",
-      "name": "Conduccion de eventos",
+      "name": "Conducción de eventos",
       "text": "Actos protocolares, celebraciones formales, presentaciones y desfiles."
     },
     {
-      "icon": "fa fa fa-heart",
+      "icon": "fa fa-diamond",
       "name": "Eventos corporativos",
       "text": "Diversión y entretenimiento para grandes, medianas y pequeñas empresas."
     }
   ],
 
   "Contact": {
-    "telefono": "2215559955",
+    "telefono": "2215030353",
     "email": "federicoperezoka@gmail.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "facebook": "https://www.facebook.com/federicoperezoka",
+    "instagram": "https://www.instagram.com/federicoperezoka/",
+    "youtube": "https://www.youtube.com/channel/UCeP1Ppdn3kDRAACfjbktrFw/featured"
   }
 }

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const initialState = {
   name: '',
@@ -15,23 +16,29 @@ export const Contact = (props) => {
   }
 
   const handleSubmit = (e) => {
-    const clearState = () => setState({ ...initialState })
     e.preventDefault()
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'service_21lge1x', 'template_cdcxp3l', e.target, 'Nm2CTLVgUyHZxUAQG'
-      )
-      .then(
-        (result) => {
-          console.log(result.text)
-          clearState()
-        },
-        (error) => {
-          console.log(error.text)
-        }
-      )
+        'service_21lge1x', 'template_cdcxp3l', e.target, 'Nm2CTLVgUyHZxUAQG')
+          .then(
+            (result) => {
+              console.log(result.text)
+              e.target.reset();
+              Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Enviado! Ahora revisa tu correo!',
+                showConfirmButton: false,
+                timer: 2500
+              })
+            },
+            (error) => {
+              console.log(error.text)
+            }
+          )
   }
+
   return (
     <div>
       <div id='contact'>
@@ -39,9 +46,9 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Pedi tu presupuesto!</h2>
+                <h2>¡Pedi tu presupuesto!</h2>
                 <p>
-                  Contactate con nosotros y te responderemos a la brevedad con toda la info!
+                  ¡Contactate con nosotros y te responderemos a la brevedad con toda la info!
                 </p>
               </div>
               <form name='sentMessage' validate="true" onSubmit={handleSubmit}>
@@ -118,7 +125,7 @@ export const Contact = (props) => {
           <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
-              <p>Clickea y seguime en las redes</p>
+              <p>¡Clickea y seguime en las redes!</p>
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : '/'}>
@@ -126,7 +133,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a href={props.data ? props.data.instagram : '/'}>
                       <i className='fa fa-instagram'></i>
                     </a>
                   </li>
